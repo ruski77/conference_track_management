@@ -1,7 +1,7 @@
 Conference Track Management.
 ===========================
 
-Written by  __bold__Russell Adcock __bold__
+Written by  __Russell Adcock__
 
 http://www.linkedin.com/in/russelladcock/
 

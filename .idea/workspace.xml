@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22b42d37-d03d-49f9-b89e-f0e33be80d6f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/conference_track_management.feature" afterPath="$PROJECT_DIR$/features/conference_track_management.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/upload_talks/upload.html.erb" afterPath="$PROJECT_DIR$/app/views/upload_talks/upload.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="conference_track_management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,10 +104,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="59" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+            <state line="3" column="28" selection-start="86" selection-end="86" vertical-scroll-proportion="0.070866145">
               <folding />
             </state>
           </provider>
@@ -146,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conference_track_management_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="conference_track_management_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="82" selection-start="817" selection-end="817" vertical-scroll-proportion="0.5138889">
+            <state line="23" column="82" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,11 +178,11 @@
         <option value="$PROJECT_DIR$/lib/modules/process_line.rb" />
         <option value="$PROJECT_DIR$/config/locales/es.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/features/conference_track_management.feature" />
         <option value="$PROJECT_DIR$/app/views/upload_talks/upload.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -889,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="59" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/upload_talks_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="5" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
@@ -919,7 +906,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="82" selection-start="817" selection-end="817" vertical-scroll-proportion="0.5138889">
+        <state line="23" column="82" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="86" selection-end="86" vertical-scroll-proportion="0.070866145">
           <folding />
         </state>
       </provider>
