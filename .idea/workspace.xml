@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="22b42d37-d03d-49f9-b89e-f0e33be80d6f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/process_input_file_test.rb" afterPath="$PROJECT_DIR$/test/unit/process_input_file_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/process_line.rb" afterPath="$PROJECT_DIR$/lib/modules/process_line.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/session_builder_test.rb" afterPath="$PROJECT_DIR$/test/unit/session_builder_test.rb" />
     </list>
     <ignored path="conference_track_management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +30,7 @@
     <file path="/process_duration.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381836891590" ignored="false" />
     <file path="/temp.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381840134884" ignored="false" />
     <file path="/process_input_file.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382026100862" ignored="false" />
-    <file path="/process_input_file_test.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382022926025" ignored="false" />
+    <file path="/process_input_file_test.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382070066766" ignored="false" />
     <file path="/number_converter.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381843291473" ignored="false" />
     <file path="/talk.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382019113987" ignored="false" />
     <file path="/track.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382020923309" ignored="false" />
@@ -42,7 +45,7 @@
     <file path="/input.txt" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382061921991" ignored="false" />
     <file path="/styles.css" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382064598172" ignored="false" />
     <file path="/en.yml" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382066380405" ignored="false" />
-    <file path="/README.md" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382069776592" ignored="false" />
+    <file path="/README.md" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382069939630" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,81 +106,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="upload_talks_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/upload_talks_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#447#469#0" expanded="true" />
-                <element signature="e#593#605#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/upload_talks/upload.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="740" selection-end="740" vertical-scroll-proportion="-15.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_input_file_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/process_input_file_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/upload_talks/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="6" selection-start="553" selection-end="553" vertical-scroll-proportion="-11.25">
-              <folding>
-                <element signature="n#t :title#0;n#!!top" expanded="true" />
-                <element signature="n#t :blurb#0;n#!!top" expanded="true" />
-                <element signature="n#t :or#0;n#!!top" expanded="true" />
-                <element signature="e#501#512#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session_builder.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/session_builder.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="69" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="636" selection-end="636" vertical-scroll-proportion="0.54330707">
+            <state line="21" column="54" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="17" selection-start="2875" selection-end="2875" vertical-scroll-proportion="-9.88">
+            <state line="146" column="55" selection-start="2936" selection-end="2936" vertical-scroll-proportion="-1.0173776">
               <folding />
             </state>
           </provider>
@@ -201,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/unit/process_input_file_test.rb" />
-        <option value="$PROJECT_DIR$/test/unit/session_builder_test.rb" />
-        <option value="$PROJECT_DIR$/features/support/paths.rb" />
         <option value="$PROJECT_DIR$/features/conference_track_management.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" />
         <option value="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" />
@@ -217,6 +155,9 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/lib/session_builder.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test/unit/process_input_file_test.rb" />
+        <option value="$PROJECT_DIR$/test/unit/session_builder_test.rb" />
+        <option value="$PROJECT_DIR$/lib/modules/process_line.rb" />
       </list>
     </option>
   </component>
@@ -776,12 +717,12 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -863,13 +804,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/files/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="38" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
@@ -878,27 +812,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/process_input_file.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/process_line.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/time_utils.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/number_converter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -929,9 +842,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="25" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.3563403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/number_converter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/time_utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="61" selection-start="201" selection-end="201" vertical-scroll-proportion="0.25462964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/session_builder_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="30" selection-start="878" selection-end="878" vertical-scroll-proportion="0.6157407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/upload_talks/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="553" selection-end="553" vertical-scroll-proportion="-11.25">
+        <state line="18" column="6" selection-start="553" selection-end="553" vertical-scroll-proportion="0.44189852">
           <folding>
             <element signature="n#t :title#0;n#!!top" expanded="true" />
             <element signature="n#t :blurb#0;n#!!top" expanded="true" />
@@ -941,30 +882,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/process_line.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="75" selection-start="98" selection-end="98" vertical-scroll-proportion="0.13412817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/session_builder.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="69" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.0">
+        <state line="61" column="69" selection-start="1481" selection-end="1481" vertical-scroll-proportion="1.3636364">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/process_input_file_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="25" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.3563403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="17" selection-start="2875" selection-end="2875" vertical-scroll-proportion="-9.88">
+        <state line="5" column="45" selection-start="117" selection-end="117" vertical-scroll-proportion="0.11398176">
           <folding />
         </state>
       </provider>
@@ -978,7 +912,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="636" selection-end="636" vertical-scroll-proportion="0.54330707">
+        <state line="21" column="54" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="55" selection-start="2936" selection-end="2936" vertical-scroll-proportion="-1.0173776">
           <folding />
         </state>
       </provider>

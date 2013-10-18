@@ -16,7 +16,7 @@ module ProcessLine
 
   end
 
-  def determine_number_of_tracks talks_array
+  def determine_number_of_tracks(talks_array)
 
     total_duration = 0
     max_track_duration = 420.0

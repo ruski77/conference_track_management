@@ -66,10 +66,10 @@ class ProcessInputFileTest < ActiveSupport::TestCase
   test 'get_minutes_from_formatted_time' do
 
     result = @instance.get_minutes_from_formatted_time('09:00AM')
-    assert_equal '00', result, 'Incorrect minutes returnd'
+    assert_equal '00', result, 'Incorrect minutes returned'
 
     result = @instance.get_minutes_from_formatted_time('5:47PM')
-    assert_equal '47', result, 'Incorrect minutes returnd'
+    assert_equal '47', result, 'Incorrect minutes returned'
 
   end
 
@@ -77,18 +77,18 @@ class ProcessInputFileTest < ActiveSupport::TestCase
 
     time = Time.new(2013,10,16, 9,00,0, "+10:00")
     expected = Time.new(2013,10,16, 9,45,0, "+10:00")
-    result = @instance.add_minutes_to_time 45, time
-    assert_equal expected, result, 'adding minutes to current time incorrect'
+    result = @instance.add_minutes_to_time(45, time)
+    assert_equal expected, result, 'Adding minutes to current time incorrect'
 
   end
 
   test 'retrieve_formatted_time' do
     time = Time.new(2013,10,16, 9,45,0, "+10:00")
-    result = @instance.retrieve_formatted_time time
-    assert_equal '09:45AM', result, 'formatted time was incorrect'
+    result = @instance.retrieve_formatted_time(time)
+    assert_equal '09:45AM', result, 'Formatted time was incorrect'
   end
 
-  def build_talks_array count
+  def build_talks_array(count)
 
     talks_array = Array.new
 

@@ -8,9 +8,9 @@ http://www.linkedin.com/in/russelladcock/
 Overview
 --------
 
-This is a Ruby on Rails application that accepts an input file of unorganised list of conference talks and creates an organised conference schedule.
-BDD and TDD were heavily used in the design of this application, the BDD Scenarios were developed from the requirements,
-the unit tests were development to meet the acceptance criteria of the BDD Scenarios.
+This is a Ruby on Rails application that accepts an input file of unorganised conference talks and creates an organised conference schedule.
+BDD and TDD were heavily used in the design of this application. Firstly, the BDD Scenarios were developed from the supplied requirements,
+then the unit tests were development to meet the acceptance criteria of the BDD Scenarios.
 
 The libraries used to produce this application were
 
@@ -22,6 +22,8 @@ The libraries used to produce this application were
 
 Assumptions
 -----------
+
+You have the following installed:
 
 * Rails version 3.2.13
 * Ruby version 1.9.3

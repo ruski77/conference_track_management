@@ -31,7 +31,7 @@ class SessionBuilderTest < ActiveSupport::TestCase
 
   end
 
-  def build_talks_array count
+  def build_talks_array(count)
 
     talks_array = Array.new
 
