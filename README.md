@@ -1,7 +1,7 @@
 Conference Track Management.
 ===========================
 
-Written by Russell Adcock
+Written by  __bold__Russell Adcock __bold__
 
 http://www.linkedin.com/in/russelladcock/
 
@@ -19,6 +19,13 @@ The libraries used to produce this application were
 * cucumber
 * sqlite3
 * database_cleaner
+
+Test Data
+---------
+
+The test input file can be found in the following location:
+
+/test/fixtures/files/input.txt
 
 Assumptions
 -----------

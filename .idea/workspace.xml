@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="22b42d37-d03d-49f9-b89e-f0e33be80d6f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/process_input_file_test.rb" afterPath="$PROJECT_DIR$/test/unit/process_input_file_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/process_line.rb" afterPath="$PROJECT_DIR$/lib/modules/process_line.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/session_builder_test.rb" afterPath="$PROJECT_DIR$/test/unit/session_builder_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/conference_track_management.feature" afterPath="$PROJECT_DIR$/features/conference_track_management.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/upload_talks/upload.html.erb" afterPath="$PROJECT_DIR$/app/views/upload_talks/upload.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="conference_track_management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,13 +18,13 @@
     <file path="/multiple_talks_in_session.feature" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381642240714" ignored="false" />
     <file path="/morning_session_start.feature" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381642280369" ignored="false" />
     <file path="/afternoon_session_end.feature" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381642398914" ignored="false" />
-    <file path="/conference_track_management.feature" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382061341515" ignored="false" />
+    <file path="/conference_track_management.feature" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382073301125" ignored="false" />
     <file path="/README" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382068285196" ignored="false" />
     <file path="/routes.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381662003193" ignored="false" />
     <file path="/upload_talks_controller.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382066555639" ignored="false" />
     <file path="/index.html.erb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382066446450" ignored="false" />
     <file path="/upload_talks_controller_test.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381836048872" ignored="false" />
-    <file path="/upload.html.erb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382066278961" ignored="false" />
+    <file path="/upload.html.erb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382074599777" ignored="false" />
     <file path="/process_talks_test.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381839393865" ignored="false" />
     <file path="/process_line.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381929727797" ignored="false" />
     <file path="/process_talks.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1381836373689" ignored="false" />
@@ -37,15 +40,16 @@
     <file path="/time_utils.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382012799484" ignored="false" />
     <file path="/conference.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382019232125" ignored="false" />
     <file path="/session.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382021690671" ignored="false" />
-    <file path="/upload_talks_helper.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382028050601" ignored="false" />
+    <file path="/upload_talks_helper.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382074537684" ignored="false" />
     <file path="/session_builder.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382065869620" ignored="false" />
     <file path="/session_builder_test.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382051808012" ignored="false" />
     <file path="/paths.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382053863917" ignored="false" />
-    <file path="/conference_track_management_steps.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382061633644" ignored="false" />
+    <file path="/conference_track_management_steps.rb" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382074940985" ignored="false" />
     <file path="/input.txt" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382061921991" ignored="false" />
-    <file path="/styles.css" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382064598172" ignored="false" />
+    <file path="/styles.css" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382072831987" ignored="false" />
     <file path="/en.yml" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382066380405" ignored="false" />
-    <file path="/README.md" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382069939630" ignored="false" />
+    <file path="/README.md" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382073554891" ignored="false" />
+    <file path="/es.yml" changelist="22b42d37-d03d-49f9-b89e-f0e33be80d6f" time="1382070855612" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,16 +113,43 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="54" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+            <state line="25" column="59" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
+      <file leaf-file-name="upload.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/upload_talks/upload.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="55" selection-start="2936" selection-end="2936" vertical-scroll-proportion="-1.0173776">
+            <state line="17" column="73" selection-start="621" selection-end="621" vertical-scroll-proportion="-10.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload_talks_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/upload_talks_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="5" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conference_track_management.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/conference_track_management.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="81" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conference_track_management_steps.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="82" selection-start="817" selection-end="817" vertical-scroll-proportion="0.5138889">
               <folding />
             </state>
           </provider>
@@ -142,22 +173,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/conference_track_management.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
         <option value="$PROJECT_DIR$/test/fixtures/files/input.txt" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/upload_talks/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/upload_talks/upload.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/upload_talks_controller.rb" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/lib/session_builder.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/unit/process_input_file_test.rb" />
         <option value="$PROJECT_DIR$/test/unit/session_builder_test.rb" />
         <option value="$PROJECT_DIR$/lib/modules/process_line.rb" />
+        <option value="$PROJECT_DIR$/config/locales/es.yml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/features/conference_track_management.feature" />
+        <option value="$PROJECT_DIR$/app/views/upload_talks/upload.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/upload_talks_helper.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb" />
       </list>
     </option>
   </component>
@@ -268,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
+              <option name="myItemId" value="fixtures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,43 +313,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conference_track_management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conference_track_management" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
+              <option name="myItemId" value="fixtures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conference_track_management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conference_track_management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
+              <option name="myItemId" value="files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -804,51 +807,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/fixtures/files/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/process_input_file.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="97" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/upload_talks/upload.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="740" selection-end="740" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/upload_talks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#447#469#0" expanded="true" />
-            <element signature="e#593#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="25" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.3563403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/number_converter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -910,16 +868,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="54" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="187" selection-end="546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="47" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="55" selection-start="2936" selection-end="2936" vertical-scroll-proportion="-1.0173776">
+        <state line="187" column="64" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.6032787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="59" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/upload_talks_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/conference_track_management.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="81" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/upload_talks/upload.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="73" selection-start="621" selection-end="621" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/conference_track_management_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="82" selection-start="817" selection-end="817" vertical-scroll-proportion="0.5138889">
           <folding />
         </state>
       </provider>

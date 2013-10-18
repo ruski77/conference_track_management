@@ -7,7 +7,6 @@ end
 When /^I upload a conference file$/ do
   attach_file('file', File.join(Rails.root, 'test', 'fixtures', 'files', 'input.txt'))
   click_button "Submit"
-  #expect(page).to have_css(".status", text: "09:00AM", count: 10)
 end
 
 Then(/^Morning session talks must start at (\d+:\d+\w\w)$/) do |time|
@@ -35,5 +34,11 @@ Then(/^(\w+) event must start at (\d+:\d+\w\w)$/) do |event, time|
   event_lower = event.downcase
   page.has_xpath?('.//tr[@class="'+event_lower+'"]//td', :text => time, :count => 2)
   page.has_xpath?('.//tr[@class="'+event_lower+'"]//td//td', :text => event, :count => 2)
+end
+
+Then(/^Each session must contain more than (\d) talk$/) do |number|
+  num_of_talks = number.to_i + 1
+  page.has_xpath?('.//tr[@class="Morning"]', :count => num_of_talks)
+  page.has_xpath?('.//tr[@class="Evening"]', :count => num_of_talks)
 end
 

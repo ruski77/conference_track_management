@@ -24,3 +24,8 @@ Feature: Conference Tack Management
     Given I am on the start page
     When I upload a conference file
     Then Network event must start at 05:00PM
+
+  Scenario: Each session contains multiple talks
+    Given I am on the start page
+    When I upload a conference file
+    Then Each session must contain more than 1 talk
