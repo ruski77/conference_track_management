@@ -1,19 +1,24 @@
 Conference Track Management.
 ===========================
 
-Written by (http://www.linkedin.com/in/russelladcock/ "Russell Adcock")
+Written by Russell Adcock
+
+http://www.linkedin.com/in/russelladcock/
 
 Overview
 --------
 
 This is a Ruby on Rails application that accepts an input file of unorganised list of conference talks and creates an organised conference schedule.
 BDD and TDD were heavily used in the design of this application, the BDD Scenarios were developed from the requirements,
+the unit tests were development to meet the acceptance criteria of the BDD Scenarios.
 
-The only libraries used to produce this application were
+The libraries used to produce this application were
 
-* Rails
-* Rake
-* Cucumber
+* rails
+* rake
+* cucumber
+* sqlite3
+* database_cleaner
 
 Assumptions
 -----------
@@ -30,3 +35,4 @@ Run Instructions
 4. rake test
 5. rake cucumber
 6. rails server
+7. Open your browser and navigation to http://localhost:3000/
