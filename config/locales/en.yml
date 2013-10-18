@@ -2,4 +2,13 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  title: "Conference Track Management."
+  file_req: "A file is required to make this work!"
+  conference_created: "Programming Conference Schedule Created!"
+  lunch: "Lunch"
+  networking_event: "Networking Event"
+  back: "Back"
+  submit: "Submit"
+  or: "or"
+  blurb: "This amazing application will change your life. Written by Russell Adcock, find me on "
+

@@ -1,0 +1,19 @@
+<div id="container">
+
+    <h1><%=t :title %></h1>
+
+    <p>
+        <%=t :blurb %>
+        <a href="http://www.linkedin.com/in/russelladcock" target="_blank"><img src="/assets/linkedin.png"></a> <%=t :or %> <a href="https://twitter.com/Ruski77" target="_blank"><img src="/assets/twitter.png"></a>.
+    </p>
+
+    <div id="subscribe">
+
+        <%= form_tag({action: :upload}, multipart: true, method: :post) do %>
+            <%= file_field_tag 'file', accept: 'text/plain' %>
+            <%= submit_tag t('submit') %>
+        <% end %>
+
+    </div>
+
+</div>

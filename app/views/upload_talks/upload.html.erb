@@ -1,0 +1,27 @@
+<table>
+    <% @tracks.each do |track| %>
+        <tr>
+            <th>Track <%=track.number%>:</th><th/>
+        </tr>
+        <% track.session.each do |session| %>
+            <% session.talk.each do |talk| %>
+                <% if lunch_time(talk) %>
+                    <tr class="lunch">
+                        <td>12:00PM</td><td><%=t :lunch %></td>
+                    </tr>
+                <% end %>
+                <tr>
+                    <td><%=talk.start_time%></td><td><%=talk.title%></td>
+                </tr>
+            <% end %>
+        <% end %>
+        <tr class="newtwork">
+            <td>05:00PM</td><td><%=t :networking_event %></td>
+        </tr>
+    <% end %>
+</table>
+
+<p>
+    <%= link_to t('back'), root_path %>
+</p>
+
